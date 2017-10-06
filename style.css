@@ -1,0 +1,109 @@
+@font-face{
+    font-family: Amarillo;
+    src: url(fonts/Amarillo.ttf);
+}
+body{
+    background-image:url(images/stars2.gif);
+    background-attachment: fixed;
+    background-color: #ccecff;
+    color: white;
+}
+h1{
+    font-family:"Amarillo", sans-serif;
+}
+h2{
+    font-family:"Amarillo", sans-serif;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: gray;
+}
+#nav li a:active {
+    background-color: #2e0468;
+    color:black;
+}
+#diamond {
+    border:solid white 1px;
+    margin: 10px 400px 10px 400px;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+#links {
+    border:solid white 3px;
+    margin: 10px 500px 10px 500px;
+    padding: 10px;
+    text-align: center;
+    background-color:white;
+    color:black;
+}
+#classes {
+    border:solid 1px;
+    margin: 25px 510px 25px 510px;
+    padding: 10px;
+    background-color:black;
+    color:white;
+}
+#contact {
+    border:solid white 3px;
+    margin: 25px 525px 25px 525px;
+    padding: 10px;
+    background-color:white;
+    color:black;
+}
+#hobbies {
+    border:solid 1px;
+    margin: 25px 510px 25px 510px;
+    padding: 10px;
+    background-color:black;
+    color:white;
+}
+#music {
+    border:solid white 1px;
+    margin: 25px 510px 25px 510px;
+    padding: 0px;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+#extracurriculars {
+    border:solid white 1px;
+    margin: 25px 510px 25px 510px;
+    padding: 15px;
+    background-color:black;
+    color:white;
+    
+}
+#school {
+    border:solid white 3px;
+    margin: 10px 575px 10px 575px;
+    padding: 3px;
+    text-align: center;
+    background-color:white;
+    color:black;
+}
+#FavoriteQuotes {
+    border:solid white 1px;
+    margin: 25px 510px 25px 510px;
+    padding: 0px;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
