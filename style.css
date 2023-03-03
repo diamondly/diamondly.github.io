@@ -1,7 +1,3 @@
-@font-face{
-    font-family: Amarillo;
-    src: url(fonts/Amarillo.ttf);
-}
 body{
     background-image:url(images/stars2.gif);
     background-attachment: fixed;
