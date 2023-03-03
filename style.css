@@ -1,7 +1,7 @@
 body{
     background-attachment: fixed;
-    background-color: #ccecff;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 h1{
     font-family:"Amarillo", sans-serif;
@@ -17,7 +17,7 @@ h2{
     background-color: white;
 }
 #nav li {
-    float: right;
+    float: inline-start;
 }
 #nav li a {
     display: block;
@@ -93,14 +93,6 @@ h2{
     text-align: center;
     background-color:white;
     color:black;
-}
-#FavoriteQuotes {
-    border:solid white 1px;
-    margin: 25px 510px 25px 510px;
-    padding: 3px;
-    background-color:black;
-    color:white;
-    text-align:center;
 }
 #volunteer {
     border:solid white 1px;
