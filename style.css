@@ -1,24 +1,17 @@
-body{
-    background-attachment: fixed;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-}
-h1{
-    font-family:"Amarillo", sans-serif;
-}
-h2{
-    font-family:"Amarillo", sans-serif;
-}
+/* Navigation Bar  */
+
 #nav {
     list-style-type: none;
     margin: -8px;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(222, 222, 222);
 }
+
 #nav li {
-    float: inline-start;
+    float: right;
 }
+
 #nav li a {
     display: block;
     color: black;
@@ -26,50 +19,108 @@ h2{
     padding: 14px 16px;
     text-decoration: none;
 }
+
 #nav li a:hover {
     background-color: gray;
 }
+
 #nav li a:active {
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     color:black;
 }
-#diamond {
-    border:solid white 1px;
+
+/* Homepage and Index */
+
+body{
+    background-attachment: fixed;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.pfp {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.intro {
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#bio {
+    font-family:"Amarillo", sans-serif;
+    margin-top: 0px;
+}
+
+ul#contact {
+    padding-left: 0px;
+    color:black;
+}
+
+ul#contact li{
+    display: inline;
+    color:black;
+}
+
+h2{
+    font-family:"Amarillo", sans-serif;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-family:monospace;
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* About Page */
+
+#about {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#about-diamond {
+    border:solid black 1px;
+    margin: 10px 400px 10px 400px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    color:black;
+}
+
+#classes {
+    text-align: center;
+    justify-content: center;
+}
+
+#classes table{
+    border:solid black 1px;
     margin: 10px 400px 10px 400px;
     padding: 10px;
-    text-align: center;
-    color:white;
-    background-color: black;
+    position: relative;
 }
+
+
+
 #links {
     border:solid white 3px;
-    margin: 10px 500px 10px 500px;
+    margin: 0px 0px 10px 500px;
     padding: 10px;
     text-align: center;
     background-color:white;
     color:black;
 }
-#classes {
-    border:solid 1px;
-    margin: 25px 510px 25px 510px;
-    padding: 10px;
-    background-color:black;
-    color:white;
-}
-#contact {
-    border:solid white 3px;
-    margin: 25px 525px 25px 525px;
-    padding: 10px;
-    background-color:white;
-    color:black;
-}
-#hobbies {
-    border:solid 1px;
-    margin: 25px 510px 25px 510px;
-    padding: 10px;
-    background-color:black;
-    color:white;
-}
+
 #music {
     border:solid white 1px;
     margin: 25px 510px 25px 510px;
@@ -82,8 +133,8 @@ h2{
     border:solid white 1px;
     margin: 25px 510px 25px 510px;
     padding: 15px;
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
     
 }
 #school {
@@ -98,6 +149,6 @@ h2{
     border:solid white 1px;
     margin: 25px 510px 25px 510px;
     padding: 15px;
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
 }
