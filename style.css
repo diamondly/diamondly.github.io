@@ -91,24 +91,32 @@ h1{
 
 #about-diamond {
     border:solid black 1px;
-    margin: 10px 400px 10px 400px;
+    margin: 10px 400px 30px 400px;
     padding: 20px;
     text-align: center;
     position: relative;
     color:black;
 }
 
-#classes {
-    text-align: center;
-    justify-content: center;
+.classes {
+    border:solid black 1px;
+    margin: 10px 400px 10px 400px;
+    padding-right: 20px;
+    position: relative;
+    color:black;
 }
 
-#classes table{
+.current-classes{
+    display: inline-block;
+    text-align: left;
+}
+
+/* #classes table{
     border:solid black 1px;
     margin: 10px 400px 10px 400px;
     padding: 10px;
     position: relative;
-}
+} */
 
 
 
