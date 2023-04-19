@@ -1,11 +1,15 @@
 /* Navigation Bar  */
 
+html {
+    scroll-behavior: smooth;
+}
+
 #nav {
     list-style-type: none;
-    margin: -8px;
-    padding: 0;
+    margin: 0px;
     overflow: hidden;
     background-color: rgb(222, 222, 222);
+    font-family: 'Poppins', sans-serif;
 }
 
 #nav li {
@@ -35,13 +39,21 @@ body{
     background-attachment: fixed;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
+    margin: 0;
+    /* height: 100%; */
+}
+
+#home{
+    height: 100vh;
+    background-color: bisque;
 }
 
 .home-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 15%;
+    padding-top: 0%;
+    height: 600px;
 }
 
 .pfp {
@@ -70,7 +82,7 @@ ul#contact li{
 }
 
 h2{
-    font-family:"Amarillo", sans-serif;
+    font-family:"Abril Fatface", serif;
     margin-bottom: 0px;
 }
 
@@ -83,19 +95,30 @@ h1{
 
 /* About Page */
 
+h3{
+    font-family:"Abril Fatface", serif;
+    font-size: larger;
+}
+
+#title{
+    font-size: 46px;
+}
+
 #about {
     align-items: center;
     justify-content: center;
     text-align: center;
+    height: 50vh;
+    margin-top:0;
 }
 
 #about-diamond {
-    border:solid black 1px;
-    margin: 10px 400px 30px 400px;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
-    position: relative;
     color:black;
+    font-family: 'Poppins', sans-serif;
+    font-size:larger;
+    padding-top: 0;
 }
 
 .classes {
@@ -109,14 +132,8 @@ h1{
 .current-classes{
     display: inline-block;
     text-align: left;
+    font-family: 'Poppins', sans-serif;
 }
-
-/* #classes table{
-    border:solid black 1px;
-    margin: 10px 400px 10px 400px;
-    padding: 10px;
-    position: relative;
-} */
 
 
 
