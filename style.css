@@ -102,6 +102,7 @@ h3{
 
 #title{
     font-size: 46px;
+    text-align: center;
 }
 
 #about {
@@ -109,7 +110,7 @@ h3{
     justify-content: center;
     text-align: center;
     height: 100vh;
-    margin-top:0;
+    padding-bottom: 10px;
 }
 
 #about-diamond {
@@ -126,7 +127,6 @@ h3{
     border:solid black 1px;
     margin: 10px 350px 10px 350px;
     padding-right: 20px;
-    /* position: relative; */
     color:black;
 }
 
@@ -136,6 +136,47 @@ h3{
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* Experience Page  */
+
+#exp {
+    height: 100vh;
+    background-color: bisque;
+    padding-top: 5px;
+}
+
+.row1{
+    display: flex;
+    height: 200px;
+    padding-bottom: 50px;
+}
+
+#job1 {
+    width: 25%;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+    justify-content: center;
+    padding-top:50px;
+}
+
+.h4{
+    font-size: medium;
+}
+
+#info {
+    text-align: left;
+    background-color: white;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size:larger;
+}
+
+#job-info {
+    border:solid black 1px;
+    color:black;
+    background-color: white;
+}
 
 
 #links {
