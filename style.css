@@ -8,7 +8,7 @@ html {
     list-style-type: none;
     margin: 0px;
     overflow: hidden;
-    background-color: rgb(222, 222, 222);
+    background-color: #0D1821;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -18,14 +18,14 @@ html {
 
 #nav li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 #nav li a:hover {
-    background-color: gray;
+    background-color: #344966;
 }
 
 #nav li a:active {
@@ -38,14 +38,14 @@ html {
 body{
     background-attachment: fixed;
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color: black;
     margin: 0;
     /* height: 100%; */
 }
 
 #home{
-    height: 100vh;
-    background-color: bisque;
+    height: 95vh;
+    background-color: #344966;
 }
 
 .home-container {
@@ -54,6 +54,7 @@ body{
     justify-content: center;
     padding-top: 0%;
     height: 600px;
+    padding-bottom: 10px;
 }
 
 .pfp {
@@ -68,7 +69,9 @@ body{
 
 #bio {
     font-family:"Amarillo", sans-serif;
+    font-style: bold;
     margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 ul#contact {
@@ -89,6 +92,7 @@ h2{
 h1{
     font-family:monospace;
     font-size: 75px;
+    font-style: bold;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -98,11 +102,14 @@ h1{
 h3{
     font-family:"Abril Fatface", serif;
     font-size: larger;
+    margin-top: 0px;
+    padding-top: 25px;
 }
 
 #title{
     font-size: 46px;
     text-align: center;
+    color:black;
 }
 
 #about {
@@ -111,38 +118,27 @@ h3{
     text-align: center;
     height: 100vh;
     padding-bottom: 10px;
+    background-color: #0D1821;
 }
 
 #about-diamond {
     padding: 50px;
     text-align: center;
-    color:black;
+    color:white;
     font-family: 'Poppins', sans-serif;
     font-size:larger;
     padding-top: 40px;
     padding-bottom: 5px;
 }
 
-.classes {
-    border:solid black 1px;
-    margin: 10px 350px 10px 350px;
-    padding-right: 20px;
-    color:black;
-}
-
-.current-classes{
-    display: inline-block;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-}
-
 
 /* Experience Page  */
 
 #exp {
-    height: 100vh;
-    background-color: bisque;
+    height: 85vh;
+    background-color: #344966;
     padding-top: 5px;
+    /* margin-bottom:0px; */
 }
 
 .row1{
@@ -178,44 +174,93 @@ h3{
     background-color: white;
 }
 
+/* Projects Page */
 
-#links {
-    border:solid white 3px;
-    margin: 0px 0px 10px 500px;
-    padding: 10px;
+#projects {
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    background-color:white;
-    color:black;
+    height: 100vh;
+    padding-bottom: 10px;
+    /* margin-top: 0px; */
+    background-color: #0D1821;
 }
 
-#music {
-    border:solid white 1px;
-    margin: 25px 510px 25px 510px;
-    padding: 0px;
-    background-color:black;
-    color:white;
-    text-align:center;
+.grid-container {
+    display: grid;
 }
-#extracurriculars {
-    border:solid white 1px;
-    margin: 25px 510px 25px 510px;
-    padding: 15px;
-    background-color:white;
-    color:black;
-    
+
+#card_container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
-#school {
-    border:solid white 3px;
-    margin: 10px 575px 10px 575px;
-    padding: 3px;
+
+.card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+    width: 18rem;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-family:'Poppins', 'sans-serif';
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+#proj-info { 
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+}
+
+.button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+
+    margin: 0 auto;
+    display: block;
+
+    cursor: pointer;
+}
+
+button:focus, button:hover {
+    background-color: #0077ff;
+    color: #e0efff;
+}
+
+.card_details {
+    padding: 16px 8px 8px 8px;
+}
+
+/* Footer */
+
+footer {
+    /* display: block; */
+    background-color: #344966;
+    color: white;
     text-align: center;
-    background-color:white;
-    color:black;
-}
-#volunteer {
-    border:solid white 1px;
-    margin: 25px 510px 25px 510px;
-    padding: 15px;
-    background-color:white;
-    color:black;
+    font-family: 'Poppins', 'sans-serif';
+    font-style: bold;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
